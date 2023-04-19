@@ -23,21 +23,20 @@
 		-webkit-font-smoothing: antialiased;
 		-webkit-font-feature-settings: 'liga';
 	}
-
-	@font-face {	 
-		font-family: 'Roboto';
-	}
+ 
 	body,html{
 		min-height: 100%;
 	}
 
-	body,h1,h2,h3,h4,h5,h6,p,span,div,a,ul,li,b,span{font-family: 'Roboto', arial;}
+	body,h1,h2,h3,h4,h5,h6,p,span,div,a,ul,li,b,span{font-family: 'Kanit', arial;}
 
 	button, input, optgroup, select, textarea {
-		font-family: 'Roboto' !important;
+		font-family: 'Kanit' !important;
 	}
 	
-
+	.btn{
+		border:3px solid orange;
+	}
 	.roboto{
 		font-family: "geomet" !important;
 	}
@@ -49,9 +48,14 @@
 		background-color: #060606 !important;
 	}
 
-	
+	.menu_list{
+		padding:0px 10px;
+		color : orange !important;
+	}
+
 	.menu_list:hover{
-		background-color: #eee;
+		color: #d0cf3a  !important;
+		cursor: pointer;
 	}
 
 	a:hover{
@@ -62,17 +66,12 @@
 		position: relative;
 	}
 
-	.text-danger{
-		color: #ed1c24  !important;
-	}
 
-	.text-danger-light{
-		color: #ed1c24 !important;
-	}
+
 
 	.menu-icon{
 		font-weight: 800;
-		color: #ed1c24  !important;
+		color: #f3cb34  !important;
 	}
 
 	
@@ -80,7 +79,7 @@
 	.btn-danger{
 		border-radius: 5px;
 		padding: 8px;
-		background-color: #ed1c24 !important;
+		background-color: #f3cb34 !important;
 		padding-left: 30px;
 		padding-right: 30px;
 		border:none;
@@ -88,7 +87,7 @@
 	}
 
 	.bg-danger{
-		background-color: #ed1c24 !important;
+		background-color: #f3cb34 !important;
 	}
 
 	.w3-medium-text{
@@ -112,7 +111,7 @@
 	}
 	
 	.selected_topic{
-		background-color: #ed1c24 !important;
+		background-color: #f3cb34 !important;
 		color: white  !important;
 	}
 
@@ -123,7 +122,7 @@
 
 
 	a{
-		color: #ed1c24 !important;
+		color: #f3cb34 !important;
 	}
 
 	#news_menu_parent {
@@ -169,7 +168,7 @@
 
 
 	.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-		background: #ed1c24 !important;
+		background: #f3cb34 !important;
 		padding: 0px 10px;
 	}
 	
@@ -233,7 +232,7 @@
 	}
 	.favourite{
 		text-shadow: 0px 0px 10px  #ffffff  !important;
-		color: #ed1c24 !important;
+		color: #f3cb34 !important;
 	}
 
 	.grid_post_info{
@@ -284,7 +283,7 @@
 		padding-bottom: 45px;
 	}
 	.list_post_header{
-		background: #ed1c24 !important; 
+		background: #f3cb34 !important; 
 		margin-bottom: 10px;
 		padding: 5px 20px;
 		color: white;
@@ -343,11 +342,11 @@
 	}
 
 	input:checked + .slider {
-		background-color: #ed1c24;
+		background-color: #f3cb34;
 	}
 
 	input:focus + .slider {
-		box-shadow: 0 0 1px #ed1c24;
+		box-shadow: 0 0 1px #f3cb34;
 	}
 
 	.loader_image{

@@ -17,7 +17,7 @@
 	<script src="assets/js/wave.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="humanized_time_span.js"></script>
-	<?php include('config2.php'); ?>
+	<?php //include('config2.php'); ?>
 
 	<!-- Owl Theme Default CSS --> 
 	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
@@ -55,10 +55,9 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#ed1c24">
 	<meta name="theme-color" content="#ed1c24">
 
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap" rel="stylesheet">
 </head>
 
 		<?php include('css_index.php');?>	
@@ -105,10 +104,10 @@
 	}
 
 	$(document).ready(function(){
+		elem('app_opener').style.display="none";
+		elem('main_header').style.display="block";
 
-		elem('app_opener').display="none";
  
-
 	});
  
 
