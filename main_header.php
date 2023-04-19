@@ -81,6 +81,7 @@
   
 </div>
 
-<div id="bannner" class="" style="background-color: #844df4;height: 400px;;">
+<div id="bannner" class="" style="background-color: #844df4;height: 400px;text-align: center;padding-top: 60px;">
 
+  <img src="./luckycat_bg.png" style="height: 100%;" class="animated infinite heartBeat slower">
 </div>
